@@ -1,0 +1,20 @@
+Resurrection Remix 5.8.5 REBORN
+===========
+RR repo with all latest / updated repos by LineageOS source
+------------------
+
+##### Initializing the RR repo and downloading the manifest
+
+      $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-rr
+
+##### Syncing the source
+
+      $  repo sync -f --force-sync --no-clone-bundle
+	  
+##### Apply n_asb script by seluce
+
+      $  git clone https://github.com/seluce/n_asb device/VENDOR/CODENAME/patches/n_asb
+	  $  cd device/VENDOR/CODENAME/patches/n_asb/resurrectionremix
+	  $ . apply-patches.sh
+
+**hint:** use your own vendor and device name
