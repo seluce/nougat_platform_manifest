@@ -1,11 +1,11 @@
-Resurrection Remix 5.8.5 REBORN
+CrDroid 3.8.9 REBORN
 ===========
-RR repo with all latest / updated repos by LineageOS source
+CrDroid repo with all latest / updated repos by LineageOS source
 ------------------
 
-##### Initializing the RR repo and downloading the manifest
+##### Initializing the CrDroid repo and downloading the manifest
 
-      $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-rr
+      $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-crdroid
 
 ##### Syncing the source
 
@@ -14,7 +14,7 @@ RR repo with all latest / updated repos by LineageOS source
 ##### Apply n_asb script by seluce
 
       $  git clone https://github.com/seluce/n_asb device/VENDOR/CODENAME/patches/n_asb
-	  $  cd device/VENDOR/CODENAME/patches/n_asb/resurrectionremix
+	  $  cd device/VENDOR/CODENAME/patches/n_asb/crdroid
 	  $ . apply-patches.sh
-
+	  
 **hint:** use your own vendor and device name
