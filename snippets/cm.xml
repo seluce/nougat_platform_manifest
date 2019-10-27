@@ -51,6 +51,8 @@
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <!-- <project path="vendor/cm" name="LineageOS/android_vendor_cm" /> -->
+  <!-- <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" /> -->
+  <!-- <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" /> -->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
