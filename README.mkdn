@@ -1,6 +1,6 @@
 Resurrection Remix 5.8.5 REBORN
 ===========
-RR repo with all latest / updated repos by LineageOS source
+RR manifest with all latest / updated repos by LineageOS source
 ------------------
 
 ##### Initializing the RR repo and downloading the manifest
