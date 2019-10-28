@@ -1,6 +1,6 @@
 CrDroid 3.8.9 REBORN
 ===========
-CrDroid repo with all latest / updated repos by LineageOS source
+CrDroid manifest with all latest / updated repos by LineageOS source
 ------------------
 
 ##### Initializing the CrDroid repo and downloading the manifest
