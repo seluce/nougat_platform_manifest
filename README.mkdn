@@ -1,6 +1,6 @@
 DotOS 1.2 REBORN
 ===========
-DotOS repo with all latest / updated repos by LineageOS source
+DotOS manifest with all latest / updated repos by LineageOS source
 ------------------
 
 ##### Initializing the DotOS repo and downloading the manifest
