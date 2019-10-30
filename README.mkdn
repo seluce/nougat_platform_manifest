@@ -3,15 +3,15 @@ DotOS 1.2 REBORN
 DotOS manifest with all latest / updated repos by LineageOS source
 ------------------
 
-##### Initializing the DotOS repo and downloading the manifest
+##### Step 1: Initializing the DotOS repo and downloading the manifest
 
       $  repo init -u https://github.com/seluce/nougat_platform_manifest.git -b nougat-dotos
 
-##### Syncing the source
+##### Step 2: Syncing the source
 
       $  repo sync -f --force-sync --no-clone-bundle
 	  
-##### Apply n_asb script by seluce
+##### Step 3: Apply n_asb script by seluce
 
       $  git clone https://github.com/seluce/n_asb device/VENDOR/CODENAME/patches/n_asb
 	  $  cd device/VENDOR/CODENAME/patches/n_asb/dotos
