@@ -7,6 +7,10 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+		   
+  <remote name="n_asb"
+           fetch="https://github.com/seluce"
+           revision="master" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -521,6 +525,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+
+  <!-- CrDroid 3.8.9 Reborn Project -->
+  <project path="n_asb" name="n_asb" groups="pdk" remote="n_asb" />
 
   <include name="snippets/cm.xml" />
   <include name="snippets/crdroid.xml" />

@@ -13,8 +13,5 @@ CrDroid manifest with all latest / updated repos by LineageOS source
 	  
 ##### Step 3: Apply n_asb script by seluce
 
-      $  git clone https://github.com/seluce/n_asb n_asb
 	  $  cd n_asb/crdroid
 	  $ . apply-patches.sh
-	  
-**hint:** use your own vendor and device name
