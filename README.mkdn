@@ -13,5 +13,5 @@ DotOS manifest with all latest / updated repos by LineageOS source
 	  
 ##### Step 3: Apply n_asb script by seluce
 
-	  $  cd n_asb/dotos
-	  $ . apply-patches.sh
+	  $ cd n_asb/dotos
+	  $ bash apply-patches.sh
