@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r36" />
 
+  <remote name="n_asb"
+           fetch="https://github.com/seluce"
+           revision="master" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
@@ -21,8 +25,8 @@
    <remote  name="dot"
      fetch="https://github.com/DotOS"
      revision="dot-n" />
-  <!-- AOSP Projects -->
 
+  <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="dot">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -467,6 +471,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+
+  <!-- DotOS 1.2 Reborn Project -->
+  <project path="n_asb" name="n_asb" groups="pdk" remote="n_asb" />
+
   <include name="snippets/cm.xml" />
   <include name="snippets/dot.xml" />
 
