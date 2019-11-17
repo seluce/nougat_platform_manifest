@@ -13,7 +13,6 @@ RR manifest with all latest / updated repos by LineageOS source
 	  
 ##### Step 3: Apply n_asb script by seluce
 
-      $  git clone https://github.com/seluce/n_asb n_asb
 	  $  cd n_asb/resurrectionremix
 	  $ . apply-patches.sh
 
