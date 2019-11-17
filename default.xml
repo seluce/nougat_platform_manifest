@@ -493,7 +493,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <!-- Resurrection Remix Reborn Projects -->
+  <!-- Resurrection Remix 5.8.5 Reborn Projects -->
   <project path="n_asb" name="n_asb" groups="pdk" remote="n_asb" />
 
   <include name="snippets/rr-n.xml" />
