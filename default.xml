@@ -15,7 +15,7 @@
 
   <remote name="n_asb"
            fetch="https://github.com/seluce"
-           revision="master" />
+           revision="nougat-crdroid" />
 
   <remote  name="crdroid"
            fetch=".."
