@@ -25,7 +25,9 @@
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
   
-  <project path="frameworks/base" name="android_frameworks_base" remote="nougat-crdroid" />
+  <!-- CrDroid 3.8.9 Reborn Project -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="n_asb" />
+  
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
