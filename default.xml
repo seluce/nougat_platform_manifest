@@ -15,7 +15,7 @@
 		   
   <remote name="n_asb"
            fetch="https://github.com/seluce"
-           revision="master" />
+           revision="nougat-rr" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
