@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="bionic" name="android_bionic" remote="dot" />
+
+    <!-- DotOS 1.2 Reborn Project -->
+  <project path="bionic" name="android_bionic" remote="n_asb" />
+  
   <project path="libcore" name="android_libcore" remote="dot" />
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
