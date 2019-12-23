@@ -7,7 +7,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
-  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+  
+    <!-- CrDroid 3.8.9 Reborn Project -->
+  <project path="bionic" name="android_bionic" remote="n_asb" />
+  
   <project path="external/bash" name="crdroidandroid/android_external_bash" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
